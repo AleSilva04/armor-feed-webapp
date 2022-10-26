@@ -41,7 +41,7 @@ const routes = [
     component: () => import("../shipments/customer-shipments/pages/customer-shipments-detail.component.vue"),
     props: true
   },
-  {
+  /*{
     path: "/customers/:id/payments",
     name: "customer-payments",
     component: () => import("../payments/pages/payments-list.component.vue"),
@@ -52,7 +52,7 @@ const routes = [
     name: "enterprise-payments",
     component: () => import("../payments/pages/payments-list.component.vue"),
     props: { isCustomer: false }
-  },
+  },*/
   {
     path: "/enterprise/:id/vehicles",
     name: "vehicles",
